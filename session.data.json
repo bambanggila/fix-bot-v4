@@ -1,24 +1,67 @@
-/*
-ketika nomor +7 7777....
-
-kirim file , nah kalian download semua file itu
-
-lalu cari yang mirip seperti dibawah ini :
-
-
-
-
-},
-                "chainType": 1,
-                "messageKeys": {}
-              }
-            }
-          }
-        },
-        "version": "v1"
+{
+  "creds": {
+    "noiseKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "kBZRjhxp31bKDPIfwpv7WCQT5DTgVd2PK0ZThJZD7W8="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "fWnrarLDJkEASpqce946bDfMIICt3x7r0P5/J/cPFFQ="
       }
-    }
-  }
-}
-
-*/
+    },
+    "signedIdentityKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "wKw7JBvnt0GGhr+r9C68WQsHGWNhoCgwdvP3yuEtokg="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "d0N9l2jYJx6dhz6btVRtYp1OVgNcV3j+Wsi+8JbA5m8="
+      }
+    },
+    "signedPreKey": {
+      "keyPair": {
+        "private": {
+          "type": "Buffer",
+          "data": "QOj4F23g1ypccYCCbX1EQiAqyNLUR33vliD/ju1PEnk="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "CJhjF0y6VGIxcTk6ncI1JR1aJ7wiIJW5+EtDIFnn72E="
+        }
+      },
+      "signature": {
+        "type": "Buffer",
+        "data": "9s1C++cCfRbMBMDIVMRqn5WVT5NKbg+FOPg0eWgJAu2of0P+A+DYFFyPK0M+NWb1zj2+FcQ3jEt60g0VNd+6Dw=="
+      },
+      "keyId": 1
+    },
+    "registrationId": 208,
+    "advSecretKey": "6EezwWUB0Rs52uCJYUPh9/CGqBhfarDdkYqfk40dyOo=",
+    "nextPreKeyId": 31,
+    "firstUnuploadedPreKeyId": 31,
+    "serverHasPreKeys": true,
+    "account": {
+      "details": "CPzGt9gHEKO/xpoGGAE=",
+      "accountSignatureKey": "UnNlITOZMzeBNoTQfOJao3QsndYTAqhkkk6PtCkD8mE=",
+      "accountSignature": "IhkA7vN6Lty3MYbPGkw5cGWPQLr/V3wl1TQnwSQCPsBwHdEPO7/45f0CPmbw5EBu3MFjzyQEfaAhsq0HAMk2Ag==",
+      "deviceSignature": "OqIGHclEQbglNcctRdIf+I8lnFvg1MGbq3GvU8h3hc9QWMo4IJGn+t2rFIfmKpUa6N/+UHDaDBczv0ivJgcGBQ=="
+    },
+    "me": {
+      "id": "62831839977149:13@s.whatsapp.net",
+      "verifiedName": "",
+      "name": "😈"
+    },
+    "signalIdentities": [
+      {
+        "identifier": {
+          "name": "62831839977149:13@s.whatsapp.net",
+          "deviceId": 0
+        },
+        "identifierKey": {
+          "type": "Buffer",
+          "data": "BVJzZSEzmTM3gTaE0HziWqN0LJ3WEwKoZJJOj7QpA/Jh"
+        }
+      }
+  
